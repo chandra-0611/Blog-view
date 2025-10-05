@@ -1,0 +1,128 @@
+{
+  "blogs": [
+    {
+      "title": "Getting Started with React",
+      "author": "Chandra",
+      "authorProfilePic": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "content": "React makes building UIs easier with components. It allows you to build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.",
+      "date": "2025-09-28",
+      "likes": 6,
+      "likedBy": [
+        "user1759072103071",
+        "user1759072105374",
+        "user1759072105646",
+        "user1759072105911",
+        "user1759072106119",
+        "user1759072106359"
+      ],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Understanding JSON Server",
+      "author": "Admin",
+      "authorProfilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "content": "JSON Server helps you create a mock REST API quickly. It's perfect for prototyping and development. You can create a full REST API with zero coding in less than 30 seconds. It's also great for testing and learning frontend frameworks.",
+      "date": "2025-09-26",
+      "likes": 9,
+      "likedBy": [
+        "user1",
+        "user4",
+        "user1759070952812"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "hhhhhh",
+      "author": "hhhhhh",
+      "authorProfilePic": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "content": "ggggggggggggg",
+      "date": "2025-09-28",
+      "likes": 3,
+      "likedBy": [
+        "user2"
+      ]
+    },
+    {
+      "title": "xxxxx",
+      "author": "xxxxxxxxx",
+      "content": "xxxxxxxxxxxxx",
+      "authorProfilePic": "xxxxx",
+      "date": "2025-09-28",
+      "likes": 0,
+      "likedBy": [],
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "blogId": 1,
+      "author": "John Doe",
+      "authorProfilePic": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "content": "Great article! React is indeed powerful for building UIs.",
+      "date": "2025-09-27T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "blogId": 1,
+      "author": "Jane Smith",
+      "authorProfilePic": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "content": "Thanks for sharing this. Very helpful for beginners.",
+      "date": "2025-09-27T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "blogId": 2,
+      "author": "Mike Johnson",
+      "authorProfilePic": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+      "content": "JSON Server is a lifesaver for frontend development!",
+      "date": "2025-09-26T16:45:00Z"
+    },
+    {
+      "author": "ccc",
+      "content": "cccccccccc",
+      "blogId": 2,
+      "date": "2025-09-28T15:12:19.913Z",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "profilePic": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "createdAt": "2025-09-27T10:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password123",
+      "profilePic": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "createdAt": "2025-09-27T14:20:00Z",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "createdAt": "2025-09-26T16:45:00Z",
+      "isActive": true
+    },
+    {
+      "name": "Sadige Chandra Prasad",
+      "email": "chandraprasadsadige0611@gmail.com",
+      "password": "123456",
+      "profilePic": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "createdAt": "2025-09-28T15:17:34.194Z",
+      "isActive": true,
+      "id": 4
+    }
+  ]
+}

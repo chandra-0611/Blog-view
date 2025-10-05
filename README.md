@@ -1,18 +1,64 @@
-# Getting Started with Create React App
+# Blog Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack blog platform built with React and JSON Server. This application allows users to create, read, update, and delete blog posts.
+
+## Features
+
+- View all blog posts
+- Create new blog posts
+- Edit existing blog posts
+- Delete blog posts
+- View individual blog post details
+- Responsive design with Bootstrap
+
+## Tech Stack
+
+- **Frontend**: React, React Router, Axios, Bootstrap
+- **Backend**: JSON Server
+- **Data**: JSON file-based database
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+You need to run both the backend server and the React app:
+
+1. **Start the JSON Server (Backend)**:
+   ```bash
+   npm run server
+   ```
+   This will start the JSON Server on [http://localhost:5000](http://localhost:5000)
+
+2. **Start the React App (Frontend)**:
+   ```bash
+   npm start
+   ```
+   This will start the React app on [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the React app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `npm run server`
+
+Starts the JSON Server backend on port 5000.\
+The API will be available at [http://localhost:5000](http://localhost:5000)
 
 ### `npm test`
 
